@@ -215,6 +215,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin: 40px 0;
 }
 
 #fourth #smart-mobility {
@@ -268,9 +269,40 @@ header {
 /* Styling instagram */
 
 #social {
+    margin: 40px 0;
     height: 420px;
     width: 100%;
     background-image: url(https://helbiz.com/asset/pages/newhome/images/Social-Banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+}
+
+#social-square {
+    width: 450px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#family {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#family h2 {
+    color: rgb(33,37,41);
+    font-size: 200%;
+}
+
+#family a {
+    margin: 0 10px;
+    color: black;
+    font-size: 150%;
 }

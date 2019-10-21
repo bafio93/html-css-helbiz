@@ -19,13 +19,10 @@
 .main-container {
     width: 97.5%;
     margin: 0 auto;
-    border: 1px solid orange;
 }
 
 .column {
     float: left;
-    border: 1px solid black;
-    /* height: 500px; */
 }
 
 .column.right {
@@ -34,6 +31,10 @@
 
 .half.column  {
     width: 48.5%;
+}
+
+.quarter.column {
+    width: 25%;
 }
 
 .one.column  {
@@ -185,7 +186,6 @@ header {
 
 .product img[alt="product-img"] {
     width: 32.5%;
-    border: 1px solid pink;
 }
 
 .hover-deco:hover {
@@ -305,4 +305,64 @@ header {
     margin: 0 10px;
     color: black;
     font-size: 150%;
+}
+
+/* Styling footer */
+
+footer {
+    background-color: black;
+}
+
+footer .container {
+    position: relative;
+}
+
+footer ul {
+    list-style: none;
+    line-height: 2;
+}
+
+footer p {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+footer .one:first-of-type {
+    margin: 75px 0 100px;
+}
+
+footer .one:first-of-type a {
+    color: rgb(92,92,92);
+    text-decoration: none;
+}
+
+footer .one:nth-of-type(2) a {
+    color: white;
+    text-decoration: none;
+}
+
+.bottom a {
+    display: inline-block;
+    margin: 30px 12px;
+}
+
+footer hr {
+    border-color: rgb(92,92,92);
+}
+
+footer .one:last-of-type {
+    text-align: center;
+}
+
+footer .one:last-of-type a {
+    display: inline-block;
+    border: 1px solid rgb(92,92,92);
+    border-radius: 5px;
+    margin: 50px 10px 100px;
+}
+
+footer .one:last-of-type img {
+    width: 100px;
 }

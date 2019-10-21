@@ -192,7 +192,22 @@ header {
     text-decoration: underline;
 }
 
-/* Styling smart-mobility */
+/* Styling fourth */
+
+#fourth, #fourth a {
+    color: white;
+    text-align: center;
+}
+
+#fourth h1 {
+    font-size: 300%;
+}
+
+#fourth h2 {
+    font-size: 125%;
+}
+
+/* Styling fourth: smart-mobility */
 
 #fourth .one.column {
     height: 500px;
@@ -204,24 +219,58 @@ header {
 
 #fourth #smart-mobility {
     width: 30%;
-    color: white;
-    border: 1px solid pink;
-    text-align: center;
     position: absolute;
     top:50%;
     right:10%;
     transform: translate(0, -50%);
 }
 
-#fourth #smart-mobility h1 {
-    font-size: 300%;
-}
-
-#fourth #smart-mobility h2 {
-    font-size: 125%;
-}
-
 #fourth #smart-mobility a {
-    color: white;
     margin-top: 15px;
+}
+
+/* Styling fourth: two columns */
+
+#get-app, #our-cities {
+    padding-top: 50px;
+}
+
+#fourth a {
+    display: inline-block;
+    margin: 20px 25px;
+}
+
+/* Styling fourth: get-app */
+
+#fourth #get-app {
+    background-image: linear-gradient(to bottom, rgb(61,81,101), rgb(37,47,57));
+    height: 600px;
+    position: relative;
+}
+
+#fourth #get-app img {
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+/* Styling fourth: our-cities */
+
+#fourth #our-cities {
+    background-image: url(https://helbiz.com/asset/pages/newhome/images/Cities-1500.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+/* Styling instagram */
+
+#social {
+    height: 420px;
+    width: 100%;
+    background-image: url(https://helbiz.com/asset/pages/newhome/images/Social-Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }

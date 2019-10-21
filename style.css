@@ -205,10 +205,27 @@ header {
 .third-description {
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 250px;
+    color: rgb(33,37,41);
+}
+
+.third-description p, .third-description h3 {
+    color: rgb(98,100,102);
+    margin-top: 10px;
 }
 
 .third-description .instructions {
+    width: 250px;
+    position: absolute;
+    top: 50px;
+}
+
+.third-description .instructions:first-of-type {
+    left: 250px;
+}
+
+.third-description .instructions:last-of-type {
+    right: 250px;
 }
 
 .third-description img {
@@ -223,6 +240,29 @@ header {
     z-index: 2;
     width: 405px;
     top: -380px;
+}
+
+.pointers {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(255,255,255,0.4);
+    /* background-color: purple; */
+    color: rgb(33,37,41);
+    border-radius: 50%;
+    position: absolute;
+    top: -100px;
+}
+
+.pointers:first-of-type {
+    left: 300px;
+}
+
+.pointers:last-of-type {
+    right: 300px;
 }
 
 /* Styling fourth */

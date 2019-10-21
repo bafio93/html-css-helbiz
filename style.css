@@ -194,6 +194,10 @@ header {
 
 /* Styling third */
 
+#third {
+    margin-top: 100px;
+}
+
 .third-jumbo {
     background-image: url(https://helbiz.com/asset/pages/newhome/images/HelbizBanner.jpg);
     background-size: cover;
@@ -215,17 +219,17 @@ header {
 }
 
 .third-description .instructions {
-    width: 250px;
+    width: 200px;
     position: absolute;
     top: 50px;
 }
 
 .third-description .instructions:first-of-type {
-    left: 250px;
+    left: 200px;
 }
 
 .third-description .instructions:last-of-type {
-    right: 250px;
+    right: 200px;
 }
 
 .third-description img {
@@ -243,14 +247,13 @@ header {
 }
 
 .pointers {
-    display: block;
+    display: none;
     width: 40px;
     height: 40px;
     line-height: 40px;
     text-align: center;
     text-decoration: none;
     background-color: rgba(255,255,255,0.4);
-    /* background-color: purple; */
     color: rgb(33,37,41);
     border-radius: 50%;
     position: absolute;
@@ -263,6 +266,10 @@ header {
 
 .pointers:last-of-type {
     right: 300px;
+}
+
+#third:hover .pointers {
+    display: block;
 }
 
 /* Styling fourth */

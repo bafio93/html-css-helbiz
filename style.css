@@ -192,6 +192,39 @@ header {
     text-decoration: underline;
 }
 
+/* Styling third */
+
+.third-jumbo {
+    background-image: url(https://helbiz.com/asset/pages/newhome/images/HelbizBanner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+}
+
+.third-description {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.third-description .instructions {
+}
+
+.third-description img {
+    position: absolute;
+    width: 250px;
+    top: -350px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.third-description img[alt="slide-cover"] {
+    z-index: 2;
+    width: 405px;
+    top: -380px;
+}
+
 /* Styling fourth */
 
 #fourth, #fourth a {
